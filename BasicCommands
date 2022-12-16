@@ -1,0 +1,12 @@
+Who is logged in currently- whoami
+ID - id
+Switch user - su <user>
+ssh - ssh -i <user>@<IP>
+Download target file to host01,target directory: /home/thor, target file name : dummy.pdf, target file URL: https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf
+wget https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf -O /home/thor/dummy.pdf
+OR cd /home/thor; curl -O https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf
+OS information - cat /etc/*release*   OR cat /etc/centos-release OR cat /etc/redhat-release
+Install using yum - sudo yum install -y ansible
+List version using yum - sudo yum list ansible
+Uninstall using yum - sudo yum remove -y ansible
+Particular version install using yum - sudo yum install -y ansible-2.8.11
