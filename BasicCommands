@@ -38,3 +38,14 @@ Install using yum - sudo yum install -y ansible
 List version using yum - sudo yum list ansible
 Uninstall using yum - sudo yum remove -y ansible
 Particular version install using yum - sudo yum install -y ansible-2.8.11
+
+set alias- alias dt=date
+check history - history
+default shell in use - echo $SHELL
+see all env var -  env
+create new env var - export NEWENVVAR=newvarvalue after that ~/.profile or ~/.pam_environment
+check path vars - echo $PATH
+add on more path value for example /opt/obs/bin - export PATH=$PATH:/opt/obs/bin
+check installation or path of tool - which <tool-name>
+check user and server info where cursor blinks - echo $PS1 | PS1="[\d \t \u@\h:\w]"
+
