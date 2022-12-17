@@ -1,3 +1,24 @@
+Print anything - echo "Hello World!"
+How long system has been running since last reboot - uptime
+check command is build in or external - type echo/type mv
+directory contains the user home directories by default - /home
+symbol represents a user’s home directory in Linux - [~]
+Check present working directory - pwd
+See content/List content - ls
+Create Directory - mkdir <DirectoryName> mkdir folder1 folder2 / mkdir folder3/folder4 | mkdir -p /UncreatedFolder1/UncreatedFolder2 (-p for parent directory)
+Go back to home directory directly - cd
+Go back to 1 directory backward - cd .. 
+Get inside a directory - cd <DirectoryName>
+push and pop directory - pushd/popd
+Move Directory - mv /home/aatif/Europe/Morocco /home/aatif/Africa/
+Rename Directory - mv /Asis/India/MOOMbai /Asia/India/Mumbai
+Copy file - cp Asia/India/Mumbai/city.txt Africa/Egypt/Cairo
+Delete/Remove file - rm Europe/UK/london/Tottenham.txt
+Read file - cat Asia/India/Mumbai/city.txt
+Write in file - cat > Africa/Egypt/Cairo/City.txt  add lines afterwards then ctrl + D
+Create empty file - touch /Asia/China/Country.txt
+Reading long long files - more bigbigfile.txt | less bigbigfile.txt
+
 Who is logged in currently- whoami
 ID - id
 Switch user - su <user>
