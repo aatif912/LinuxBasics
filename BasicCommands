@@ -5,6 +5,8 @@ directory contains the user home directories by default - /home
 symbol represents a user’s home directory in Linux - [~]
 Check present working directory - pwd
 See content/List content - ls
+See content/List content with more details - ls -l
+See content/List content of hidden files - ls -a
 Create Directory - mkdir <DirectoryName> mkdir folder1 folder2 / mkdir folder3/folder4 | mkdir -p /UncreatedFolder1/UncreatedFolder2 (-p for parent directory)
 Go back to home directory directly - cd
 Go back to 1 directory backward - cd .. 
@@ -18,6 +20,11 @@ Read file - cat Asia/India/Mumbai/city.txt
 Write in file - cat > Africa/Egypt/Cairo/City.txt  add lines afterwards then ctrl + D
 Create empty file - touch /Asia/China/Country.txt
 Reading long long files - more bigbigfile.txt | less bigbigfile.txt
+To list all the files in the order they were modified - ls -lt 
+To list all the files form oldest to newest - ls -ltr
+
+Command line help e.g. - whatis date | man date | date --help | apropos modpr
+
 
 Who is logged in currently- whoami
 ID - id
